@@ -1,0 +1,6 @@
+# Ignore Windows shortcut files
+*.url
+
+# Ignore Microsoft OneNote files
+*.one
+*.onetoc2
