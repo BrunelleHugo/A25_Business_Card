@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b088a105-323b-4bb6-85e9-cf97c58d108d")
+	(paper "A4")
+	(title_block
+		(title "Communication RF")
+		(rev "Rev.1")
+	)
+	(lib_symbols)
+)

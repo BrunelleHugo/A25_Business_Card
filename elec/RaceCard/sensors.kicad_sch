@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b0cfe529-ae68-4ff2-9f0a-e8fec21e719d")
+	(paper "A4")
+	(title_block
+		(title "Capacitive sensors")
+		(rev "Rev.1")
+	)
+	(lib_symbols)
+)

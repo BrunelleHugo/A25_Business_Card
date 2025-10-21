@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "84ec85fb-d418-4583-9495-b71ab874f303")
+	(paper "A4")
+	(title_block
+		(title "STM32 microcontroller")
+		(rev "Rev.1")
+	)
+	(lib_symbols)
+)
