@@ -169,6 +169,36 @@
 				(justify left top)
 			)
 		)
+		(pin "VDD" input
+			(at 205.74 67.31 180)
+			(uuid "36ec47cf-9252-4745-b49c-0c9ed44e810f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREGA" output
+			(at 205.74 71.12 180)
+			(uuid "6510f9a9-6ad9-456f-9ecd-179de37b9492")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREGD" output
+			(at 205.74 73.66 180)
+			(uuid "db6ae117-b214-47a9-93d3-084f8e6ed9be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"

@@ -246,9 +246,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "C3I_A25"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "C3I_A25"
     ]
