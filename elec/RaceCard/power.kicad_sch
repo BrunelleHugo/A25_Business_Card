@@ -1726,19 +1726,6 @@
 		)
 		(uuid "eb8e04cc-e033-429f-934a-02b31611e526")
 	)
-	(text "GÉRER LE POWER OUT"
-		(exclude_from_sim no)
-		(at 230.124 97.282 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "ed4c8ad2-d744-4a2f-a871-cab8775e959b")
-	)
 	(junction
 		(at 209.55 97.79)
 		(diameter 0)
@@ -1780,6 +1767,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9941f4de-8e8d-4ab9-a574-7f4f28230c71")
+	)
+	(junction
+		(at 218.44 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f83026-d362-47e6-a17b-8819936bc687")
 	)
 	(wire
 		(pts
@@ -1902,6 +1895,16 @@
 			(type default)
 		)
 		(uuid "54db4bd6-7e80-4d72-862d-d50b9fe62506")
+	)
+	(wire
+		(pts
+			(xy 218.44 97.79) (xy 222.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564c8d19-f1c6-48ec-8309-c65a9196b018")
 	)
 	(wire
 		(pts
@@ -2078,6 +2081,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 97.79) (xy 218.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce05c6a9-ac94-4ba7-816d-69a8a544c25c")
+	)
+	(wire
+		(pts
 			(xy 191.77 104.14) (xy 190.5 104.14)
 		)
 		(stroke
@@ -2195,16 +2208,6 @@
 			(type default)
 		)
 		(uuid "f80444cb-727a-40b3-9ed3-62e97ed9b08b")
-	)
-	(wire
-		(pts
-			(xy 218.44 97.79) (xy 218.44 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb3c8c5e-b66a-44a6-adde-d8395dfc950c")
 	)
 	(polyline
 		(pts
@@ -3059,6 +3062,17 @@
 			"Ov/wCCfGGGOMMcYYY4wxpldccGKMMcYYY4wxxhhjesUFJ8YYY4wxxhhjjDGmV/8PzKRN/i5YVw4A"
 			"AAAASUVORK5CYII="
 		)
+	)
+	(hierarchical_label "VDD"
+		(shape output)
+		(at 222.25 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5582a292-5108-48fa-be65-2aa66e6bfe10")
 	)
 	(symbol
 		(lib_id "power:GND")
