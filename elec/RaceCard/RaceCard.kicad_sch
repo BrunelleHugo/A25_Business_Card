@@ -9,6 +9,19 @@
 		(rev "Rev.1")
 	)
 	(lib_symbols)
+	(text "METTRE LES CONNEXION ENTRE LES PAGES"
+		(exclude_from_sim no)
+		(at 146.05 51.308 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "de4e7a05-d3f6-4019-8cdb-3b20e5ce2bcb")
+	)
 	(sheet
 		(at 157.48 107.95)
 		(size 33.02 19.685)

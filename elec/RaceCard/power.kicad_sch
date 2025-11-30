@@ -1713,6 +1713,32 @@
 		)
 		(uuid "511748fb-9168-4d69-9cfd-f0e992a27444")
 	)
+	(text "METTRE CONN."
+		(exclude_from_sim no)
+		(at 60.706 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "eb8e04cc-e033-429f-934a-02b31611e526")
+	)
+	(text "GÉRER LE POWER OUT"
+		(exclude_from_sim no)
+		(at 230.124 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ed4c8ad2-d744-4a2f-a871-cab8775e959b")
+	)
 	(junction
 		(at 209.55 97.79)
 		(diameter 0)
