@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "9f984eaf-5d99-476a-950e-0e4b2b95f16a")
-	(paper "A4")
+	(paper "USLetter")
 	(lib_symbols)
 	(sheet
-		(at 168.91 104.14)
-		(size 31.75 20.32)
+		(at 24.13 30.48)
+		(size 62.23 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "43be046e-7849-45ec-858a-c1590a7bb3bc")
 		(property "Sheetname" "rf"
-			(at 168.91 103.4284 0)
+			(at 24.13 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,52 @@
 			)
 		)
 		(property "Sheetfile" "rf.kicad_sch"
-			(at 168.91 125.0446 0)
+			(at 24.13 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DO" output
+			(at 86.36 40.64 0)
+			(uuid "afa505af-d27f-44a7-926b-f18d2b6a3962")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SHDN" input
+			(at 24.13 35.56 180)
+			(uuid "b04ab4f4-0ce9-464f-944c-8eac5e49148c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RSSI" output
+			(at 86.36 45.72 0)
+			(uuid "ce0affe0-5ef7-4ac8-8f78-f1e096d854db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD" output
+			(at 86.36 35.56 0)
+			(uuid "550cc946-30b2-45f1-9ac6-f0e83a15ef50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
