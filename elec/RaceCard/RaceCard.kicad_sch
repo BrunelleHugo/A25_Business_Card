@@ -138,6 +138,16 @@
 				(justify left)
 			)
 		)
+		(pin "DATA" input
+			(at 77.47 157.48 180)
+			(uuid "8b451f55-abee-41f8-9bf4-be3e8a5aa329")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"

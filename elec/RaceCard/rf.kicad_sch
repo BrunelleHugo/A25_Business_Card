@@ -1750,6 +1750,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f9c01d-7472-400d-a423-40b1b9091edb")
+	)
+	(wire
+		(pts
 			(xy 92.71 100.33) (xy 100.33 100.33)
 		)
 		(stroke
@@ -1908,28 +1918,6 @@
 		)
 		(uuid "fb736eaa-ebee-41ae-80cd-777a215d13cf")
 	)
-	(global_label "DATA"
-		(shape input)
-		(at 118.11 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47c360a7-9366-4b08-90af-ba3f64517cda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 208.28 77.47 0)
@@ -1940,6 +1928,17 @@
 			(justify left)
 		)
 		(uuid "6c52b164-c584-4a99-b90e-b1b5086bb593")
+	)
+	(hierarchical_label "DATA"
+		(shape input)
+		(at 116.84 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a9719d5-3ded-47af-986a-a16e0ae1da5d")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
