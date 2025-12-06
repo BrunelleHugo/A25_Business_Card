@@ -7227,7 +7227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "182782cf-07b8-4fe7-ad64-24fcd912ad73")
-		(property "Reference" "TP10"
+		(property "Reference" "TP3"
 			(at 118.618 38.1 90)
 			(effects
 				(font
@@ -7278,7 +7278,7 @@
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
-					(reference "TP10")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7293,7 +7293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1957dd50-b6d7-4c56-a44c-a407d9eac233")
-		(property "Reference" "TP8"
+		(property "Reference" "TP1"
 			(at 110.998 38.1 90)
 			(effects
 				(font
@@ -7344,7 +7344,7 @@
 		(instances
 			(project ""
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
-					(reference "TP8")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7425,7 +7425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4244948e-f895-4d62-8b88-3712dabb873a")
-		(property "Reference" "TP11"
+		(property "Reference" "TP4"
 			(at 122.428 38.1 90)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
-					(reference "TP11")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7491,7 +7491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b2072ff-2168-4a64-80a3-5efa0c0127f2")
-		(property "Reference" "TP14"
+		(property "Reference" "TP7"
 			(at 133.858 38.1 90)
 			(effects
 				(font
@@ -7542,7 +7542,7 @@
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
-					(reference "TP14")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7557,7 +7557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "611f930c-7c2c-4201-b94b-2b84712459e5")
-		(property "Reference" "TP9"
+		(property "Reference" "TP2"
 			(at 114.808 38.1 90)
 			(effects
 				(font
@@ -7608,7 +7608,7 @@
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
-					(reference "TP9")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7623,7 +7623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "821006a3-35c4-4210-b30e-97f7af185fd6")
-		(property "Reference" "TP12"
+		(property "Reference" "TP5"
 			(at 126.238 38.1 90)
 			(effects
 				(font
@@ -7674,7 +7674,7 @@
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
-					(reference "TP12")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7689,7 +7689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d88c6b9-849d-43f0-ab75-ae20d9fb80ca")
-		(property "Reference" "TP13"
+		(property "Reference" "TP6"
 			(at 130.048 38.1 90)
 			(effects
 				(font
@@ -7740,7 +7740,7 @@
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
-					(reference "TP13")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -7755,7 +7755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a354da45-376f-43dd-a76a-1a0407a12921")
-		(property "Reference" "TP15"
+		(property "Reference" "TP8"
 			(at 137.668 38.1 90)
 			(effects
 				(font
@@ -7806,7 +7806,7 @@
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
-					(reference "TP15")
+					(reference "TP8")
 					(unit 1)
 				)
 			)

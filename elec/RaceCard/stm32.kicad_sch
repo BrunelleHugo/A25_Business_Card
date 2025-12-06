@@ -604,16 +604,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R1"
-				(at 3.556 0.762 90)
+			(property "Reference" "R"
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R0"
-				(at 1.778 0.762 90)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -680,7 +680,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0.508 2.032) (xy 0 1.778) (xy -0.508 1.524) (xy 0 1.27)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -692,7 +692,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0.508 1.016) (xy 0 0.762) (xy -0.508 0.508) (xy 0 0.254)
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -704,7 +704,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.254) (xy 0.508 0) (xy 0 -0.254) (xy -0.508 -0.508) (xy 0 -0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -716,7 +716,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 0 -2.54)
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -747,7 +747,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -1974,7 +1974,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR01"
+			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1984,7 +1984,7 @@
 				)
 			)
 			(property "Value" "VDD"
-				(at 0 5.08 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2030,7 +2030,7 @@
 			(symbol "VDD_0_1"
 				(polyline
 					(pts
-						(xy -0.762 3.81) (xy 0 3.81)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2042,7 +2042,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0.762 3.81)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2054,7 +2054,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 3.81)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2067,7 +2067,7 @@
 			)
 			(symbol "VDD_1_1"
 				(pin power_in line
-					(at 0 2.54 90)
+					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -2087,6 +2087,19 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 85.725 17.145)
+		(end 111.125 45.72)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dcc02d38-02e4-4e0c-9f20-746c657720bb)
 	)
 	(text "MCU DECAPS\n"
 		(exclude_from_sim no)
@@ -2109,6 +2122,19 @@
 			)
 		)
 		(uuid "4727cc3e-cea2-4364-8336-c512bc02b7b6")
+	)
+	(text "VALIDER"
+		(exclude_from_sim no)
+		(at 98.552 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "4b2333a5-8fd2-4de8-a014-cbc8c13b4abb")
 	)
 	(text "STM32U031 MCU INITIAL CONNECTIONS\n"
 		(exclude_from_sim no)
@@ -2403,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 48.26) (xy 125.73 48.26)
+			(xy 120.65 48.26) (xy 124.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9365,7 +9391,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 129.54 48.26 90)
+		(at 128.27 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9373,7 +9399,7 @@
 		(dnp no)
 		(uuid "12be0ffb-cd0f-4f9c-a78b-5271979b2e0e")
 		(property "Reference" "R1"
-			(at 128.778 44.196 90)
+			(at 128.27 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +9407,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 128.778 46.482 90)
+			(at 128.27 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9389,7 +9415,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.794 47.244 90)
+			(at 128.524 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9398,7 +9424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 48.26 0)
+			(at 128.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9433,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 129.54 48.26 0)
+			(at 128.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9440,7 +9466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "179962b3-78aa-472b-a3b0-c563e0d665f6")
-		(property "Reference" "TP1"
+		(property "Reference" "TP9"
 			(at 76.2 19.5579 0)
 			(effects
 				(font
@@ -9491,7 +9517,7 @@
 		(instances
 			(project ""
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7/4fa2e0fb-f6ed-42f5-9bb3-15e1a8421f43"
-					(reference "TP1")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -9638,7 +9664,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 135.89 49.53 0)
+		(at 135.89 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9646,7 +9672,7 @@
 		(dnp no)
 		(uuid "6e7952c2-a310-47eb-8d21-34d160948a73")
 		(property "Reference" "#PWR06"
-			(at 135.89 53.34 0)
+			(at 135.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +9681,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 135.89 44.45 0)
+			(at 135.89 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 49.53 0)
+			(at 135.89 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,7 +9698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 49.53 0)
+			(at 135.89 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +9707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 135.89 49.53 0)
+			(at 135.89 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +9869,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 88.9 26.67 0)
+		(at 88.9 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9851,7 +9877,7 @@
 		(dnp no)
 		(uuid "962adfd1-4ee7-41dc-a1e8-901c503012d2")
 		(property "Reference" "#PWR05"
-			(at 88.9 30.48 0)
+			(at 88.9 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +9886,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 88.9 21.59 0)
+			(at 88.9 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9868,7 +9894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 26.67 0)
+			(at 88.9 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,7 +9903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 26.67 0)
+			(at 88.9 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +9912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 88.9 26.67 0)
+			(at 88.9 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.cnctech.us/pdfs/3020-XX-0300-00%20(9T).pdf"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
 			(at 245.11 74.93 90)
 			(effects
 				(font

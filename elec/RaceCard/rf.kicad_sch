@@ -34,7 +34,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ABLS-13.560MHZ-10-R20-D-T:XTAL_ABLS-13.560MHZ-10-R20-D-T"
+			(property "Footprint" "C3I:XTAL_ABLS-13.560MHZ-10-R20-D-T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -237,7 +237,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MSOP10_MC_MCH"
+			(property "Footprint" "C3I:MSOP10_MC_MCH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -264,14 +264,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "MICRF112YMM"
@@ -2226,7 +2218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ABLS-13.560MHZ-10-R20-D-T:XTAL_ABLS-13.560MHZ-10-R20-D-T"
+		(property "Footprint" "C3I:XTAL_ABLS-13.560MHZ-10-R20-D-T"
 			(at 99.06 93.98 0)
 			(effects
 				(font
@@ -2393,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bb083bc-655b-4920-baeb-b379092de56c")
-		(property "Reference" "TP7"
+		(property "Reference" "TP16"
 			(at 176.53 71.6279 0)
 			(effects
 				(font
@@ -2444,7 +2436,7 @@
 		(instances
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7/00fed2a2-695a-48f3-8dd8-7873b3152cc9"
-					(reference "TP7")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSOP10_MC_MCH"
+		(property "Footprint" "C3I:MSOP10_MC_MCH"
 			(at 118.11 95.25 0)
 			(effects
 				(font
@@ -2778,7 +2770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a7f7da-4c91-45c2-a97c-0c5431283d3f")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 175.768 83.82 0)
 			(effects
 				(font
@@ -2838,7 +2830,7 @@
 			)
 			(project "RaceCard"
 				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7/00fed2a2-695a-48f3-8dd8-7873b3152cc9"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
