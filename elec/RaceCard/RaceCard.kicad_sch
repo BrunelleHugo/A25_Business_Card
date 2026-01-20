@@ -332,6 +332,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 106.68) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83e56f6-cee5-425e-9e74-73dbb26990b1")
+	)
+	(wire
+		(pts
 			(xy 153.67 74.93) (xy 162.56 74.93)
 		)
 		(stroke
@@ -349,6 +359,16 @@
 			(type default)
 		)
 		(uuid "d5941a47-164b-4460-a72c-8a25c00bceb7")
+	)
+	(wire
+		(pts
+			(xy 99.06 110.49) (xy 100.33 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a5134c-7b92-4b3a-9a14-c34b4101d8e6")
 	)
 	(wire
 		(pts
@@ -7185,6 +7205,72 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 99.06 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ab0e5ae-2927-42b0-936e-a7e719fc8f5f")
+		(property "Reference" "VREGD"
+			(at 93.98 111.252 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PB14"
+			(at 93.98 109.728 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d33a3064-8c47-4d2f-b729-cf47f767b8aa")
+		)
+		(instances
+			(project "RaceCard"
+				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
+					(reference "VREGD")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 115.57 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7447,6 +7533,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6daa50d-157d-4fc1-81b4-9c1ae8dafe88")
+		(property "Reference" "VREGA"
+			(at 93.98 107.442 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PB14"
+			(at 93.98 105.918 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b00edd-20fe-4499-a552-c7417bb8550d")
+		)
+		(instances
+			(project "RaceCard"
+				(path "/fef6ab1d-cc84-41bb-aff7-8da28fd37bf7"
+					(reference "VREGA")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 100.33 138.43)
 		(size 33.02 31.75)
@@ -7672,7 +7824,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 99.06)
+		(at 62.23 138.43)
 		(size 33.02 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7688,7 +7840,7 @@
 		)
 		(uuid "de9963ec-94d0-4cea-b3e4-29f643159c90")
 		(property "Sheetname" "Power"
-			(at 62.23 98.3484 0)
+			(at 62.23 137.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +7849,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 62.23 131.3946 0)
+			(at 62.23 170.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +7910,7 @@
 			)
 		)
 		(pin "VREGD" output
-			(at 100.33 109.22 180)
+			(at 100.33 110.49 180)
 			(uuid "db6ae117-b214-47a9-93d3-084f8e6ed9be")
 			(effects
 				(font
